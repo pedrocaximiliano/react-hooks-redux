@@ -13,15 +13,12 @@ export default function Cart() {
 
 				{cars.add.map(car => <>
 					<div className="shopping_card">
-					<img src={car.url} className="img" alt={car.name} />
-					<div className="shopping_car_title">{car.name}</div>
-					<div className="shopping_car_title">{car.id}</div>
-					
+						<img src={car.url} className="img" alt={car.name} />
+						<div className="shopping_car_title">{car.name}</div>
+						<div className="shopping_car_title">{car.id}</div>
 					</div>
-					
 				</>
 				)}
-					<h5 className="shopping_car_value">valor: 1.000.000,00</h5>
 			</>
 		)
 	);
