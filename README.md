@@ -1,4 +1,4 @@
-# Redux-react-hook
+# react-hooks-redux
 
 Projeto simples mostrando o importância e a utilização do redux em uma aplicação React para Web. 
 Nesse projeto é possível adiconar conteúdos e adicionar no carrinho de compras
